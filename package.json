@@ -1,0 +1,31 @@
+{
+  "name": "enrich-github",
+  "version": "1.0.0",
+  "description": "Easier access to the enrich-github API",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roopakv/node-enrich-github.git"
+  },
+  "keywords": [
+    "enrich-github",
+    "github"
+  ],
+  "author": "Roopak Venkatakrishnan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/roopakv/node-enrich-github/issues"
+  },
+  "homepage": "https://github.com/roopakv/node-enrich-github#readme",
+  "dependencies": {
+    "axios": "^0.18.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.2",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0"
+  }
+}
