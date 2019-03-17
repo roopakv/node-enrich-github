@@ -12,9 +12,11 @@ Get a token for enrich github by going to [enrichgithub.com](http://enrichgithub
 Instantiate enrichgithub with your token and repo name
 
 ```javascript
+const EnrichGithub = require('enrich-github');
+
 const token = process.env.ENRICH_GITHUB_TOKEN;
 const repo = roopakv/node-enrich-github;
-const enrichGithub = require('enrich-github')(token, repo);
+const enrichGithub = new EnrichGithub(token, repo);
 ```
 
 All methods take in an options object. The structure of each API is described
