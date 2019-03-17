@@ -7,7 +7,7 @@ repository, for other features you would like to see.
 
 ## Usage
 
-Get a token for enrich github by going to [].
+Get a token for enrich github by going to [enrichgithub.com](http://enrichgithub.com).
 
 Instantiate enrichgithub with your token and repo name
 
